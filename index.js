@@ -5,5 +5,4 @@ let a = document.getElementById("heading1")
 let b= document.getElementsByClassName("class1")
 // b[0].removeAttribute()
 console.log(b[0].innerHTML);
-
 // console.log(b[0])
