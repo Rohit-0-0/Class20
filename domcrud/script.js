@@ -24,6 +24,14 @@ bub2.innerText="kya haal h"
 divv.appendChild(p,bub2)//ha yha p ek hi apend ho rha h 
 
 
-
+divv.addEventListener("click",()=>
+{
+    console.log("click hua hai")
+    p.style.color="red"
+})
+divv.removeEventListener("click",()=>
+{
+    console.log("removed")
+})    
 
 
