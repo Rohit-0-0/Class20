@@ -41,3 +41,4 @@ console.log(cls[0].getAttribute("id"))
 // console.log(cls[0].getAttribute("id")
 console.log(cls[0].hasAttribute("id"))
 cls[0].style.backgroundColor = "black";
+console.log(cls)
